@@ -1,0 +1,256 @@
+.body-core {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.big-img {
+    
+    display: flex;
+    justify-content: center;
+    margin-left: 130px;
+    width: 80%;
+    height: 60%;
+    overflow: hidden;
+    border: white 3px solid;
+    margin-top: 0;
+    border-radius: 20px;
+}
+
+.big-img img {
+    
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+   
+}
+
+.sign-in{
+    margin-top: 60px;
+    border: 3px white solid;
+    border-radius: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-left: 465px;
+    height: 500px;
+    width: 400px;
+    margin-bottom: 100px;
+}
+
+h1{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin-left: 23%;
+    margin-bottom: 30px;
+}
+
+.nav{
+    margin-top: 40px;
+    background-color: black;
+    display: block;
+    color: white;
+}
+
+.unlist{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+li a:hover{
+    background-color: black;
+    color: red;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    margin-top: 15px;
+    margin-right: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.customize{
+    display: block;
+    
+
+}
+
+input{
+    width: 90%;
+    height: 10%;
+    margin-top: 10px;
+    margin-left: 3.5%;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+
+
+}
+
+.name{
+    
+    margin-bottom: 35px;
+}
+
+.sign{
+    margin-top: 40px;
+}
+.log{
+    margin-top: 40px;
+}
+
+input::placeholder {
+    text-align: center;
+}
+
+
+button{
+    
+    margin-left: 3.5%;
+    width: 90%;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    height: 10%;
+}
+
+
+.m-body{
+    background-color: black;
+}
+
+.h1{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    margin-left: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    font-size: 55px;
+
+}
+
+
+.one{
+    width: 300px;
+    height: 400px;
+    background-color: yellow;
+    display: inline-block;
+    margin-left: 12%;
+    background-color: black;
+    border: 1px white solid;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.two{
+    width: 300px;
+    height: 400px;
+    background-color: green;
+    display: inline-block;
+    margin-left: 5%;
+    background-color: black;
+    border: 1px white solid;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.three{
+    width: 300px;
+    height: 400px;
+    background-color: red;
+    display: inline-block;
+    margin-left: 5%;
+    background-color: black;
+    border: 1px white solid;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+
+.mi{
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+    
+}
+
+.av{
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+
+.ae{
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 270px;
+    height: 250px;
+    border-radius: 20px;
+}
+
+p{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    margin-left: 50px;
+    font-weight: bold;
+    
+}
+
+.back{
+   
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: red;
+    padding-top: 5px;   
+    margin-left: 600px;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+
+.a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold
+}
+
+.two:hover{
+    color: red;
+    border: 1px red solid;
+}
+
+.one:hover{
+    color: red;
+    border: 1px red solid;
+}
+
+.three:hover{
+    color: red;
+    border: 1px red solid;
+}
+
